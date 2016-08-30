@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>itemsList</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="css/itemsList/itemsList.css">
+    <link rel="stylesheet" href="css/itemsList/font/itemsList-Font.css">
+    <link rel="stylesheet" href="css/itemsList/reset.css">
+    <link rel="stylesheet" href="css/itemsList/pullToRefresh.css">
+    <style type="text/css" media="all">
+        li {
+            /*border-bottom: 1px #CCC solid;*/
+            text-align: center;
+            line-height: 80px;
+        }
+    </style>
+
+</head>
+<body>
+<div class="index-waiting-animition" style="display: block; line-height: 40px;" id="index-waiting-animition">
+    <div class="loader" style="display: none;" id="loaderStart">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+</div>
+<div class="whole" id="wrapper">
+    <ul class="clearfix">
+    </ul>
+</div>
+<div class="header"></div>
+<div class="more-box">
+    <button class="button-all heighter-3">
+        <span class="glyphicon glyphicon-trash"></span>
+    </button>
+    <button class="button-all heighter-2">
+        <span class="glyphicon glyphicon-pencil"></span>
+    </button>
+    <button class="button-all heighter-1">
+        <span class="glyphicon glyphicon-plus"></span>
+    </button>
+    <button class="button-all hamburger">
+        <span class="glyphicon glyphicon-menu-hamburger"></span>
+    </button>
+</div>
+<div class="wrapper-white gone">
+    <div class="wrapper-white-tip">
+        <span class="wrapper-white-title">请选择操作</span>
+        <button class="gone"><span class="glyphicon glyphicon-remove-sign"></span></button>
+    </div>
+</div>
+<script src="js/itemsList/iscroll.js"></script>
+<script src="js/itemsList/pullToRefresh_Aaron.js"></script>
+<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script src="js/itemsList/toggleDomClass.js"></script>
+<script src="js/itemsList/renderList.js"></script>
+</body>
+</html>
