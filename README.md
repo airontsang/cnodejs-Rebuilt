@@ -21,13 +21,13 @@
 ###目录结构
     .
     |--build            // 构建服务和webpack配置
-    |--index.html       //项目主页，入口
+    |--index.html       //项目主页，入口
     |--config           //项目环境配
     |--package.json     //项目配置文件
     |--src              //生产目录
     |  |--assets        //静态资源
     |  |--components    //项目组件
-    |  |--vuex          //vuex文件夹，暂时没按照该结构组织
+    |  |--vuex          //vuex文件夹，暂时没按照该结构组织
     |  |--store.js      //状态管理都写在这里了
     |  |--main.js       Webpack 预编译入口
     
