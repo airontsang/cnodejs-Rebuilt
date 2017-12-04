@@ -11,8 +11,8 @@
     
 <br>启动服务器(http://localhost:8080)
     
-    npm npm install
-    
+    npm run dev
+ 
 <br>发布代码
     
     npm run build
